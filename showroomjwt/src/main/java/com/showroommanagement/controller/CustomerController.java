@@ -26,7 +26,7 @@ public class CustomerController {
         return new ResponseDTO(HttpStatus.OK.value(), Constant.RETRIEVE, this.customerService.retrieveDepartmentById(id));
     }
 
-    @GetMapping("/customer/retrieve")
+    @GetMapping("/customer")
     public ResponseDTO retrieveCustomer() {
         return new ResponseDTO(HttpStatus.OK.value(), Constant.RETRIEVE, this.customerService.retrieveCustomer());
     }
