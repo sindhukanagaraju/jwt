@@ -1,0 +1,17 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+<!--    <include file="db/changelog/20250507952_create_showroom.xml" />-->
+<!--    <include file="db/changelog/202505071053_insert_showroom.xml" />-->
+<!--    <include file="db/changelog/202505071055_update_showroom.xml" />-->
+<!--    <include file="db/changelog/202505071109_delete_showroom.xml" />-->
+
+<!--        <include file="db/changelog/202505071149_create_department.xml" />-->
+<!--        <include file="db/changelog/202505071249_insert_department.xml" />-->
+<!--        <include file="db/changelog/202505071525_update_department.xml" />-->
+        <include file="db/changelog/202505071526_delete_department.xml" />
+
+</databaseChangeLog>

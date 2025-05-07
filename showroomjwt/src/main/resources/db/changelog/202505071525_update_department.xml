@@ -1,0 +1,14 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="8" author="sindhu">
+        <update tableName="department">
+            <column name="name" value="advisor updated"/>
+            <column name="showroom_id" valueNumeric="1"/>
+            <where>id = 10</where>
+        </update>
+</changeSet>
+</databaseChangeLog>
